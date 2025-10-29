@@ -21,5 +21,5 @@ from blog import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("home", include("blog.urls")),
-    path("products", views.ProductView.as_view(), name="Exercício")
+    path("products", views.ProductView.as_view(), name="Exercício"),
 ]
